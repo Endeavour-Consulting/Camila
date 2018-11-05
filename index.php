@@ -27,23 +27,15 @@
             <div class="header-image">
               <img
                 src="./images/background.jpg"
-                alt="Mimmi - header image">
+                alt="Camila De Paula: header image">
             </div>
-             <img src="./images/logo.png" alt="Logo" class="logo">
+             <img src="./images/logo.png" alt="Camila De Paula: logo" class="logo">
           </div>
           <div class="content">
-            <!-- <div
-              class="share-btn"
-              id="shareButton"
-              onClick="mobileShare()">
-              <img
-                src="./images/icons/share-arrow.svg"
-                alt>
-            </div> -->
             <div class="user-picture">
               <img
                 src="./images/profile-picture.png"
-                alt>
+                alt="Camila De Paula: profile picture">
             </div>
             <div class="profile_name text-center">
               <span>CAMILA DE PAULA</span>
@@ -65,7 +57,7 @@
                 href="https://www.anteroz.com/the-brand-en">
                 <img
                   src="./images/icons/webpage.svg"
-                  alt="world wide web"
+                  alt="Camila De Paula: world wide web"
                   class="svg">
               </a>
             </li>
@@ -75,7 +67,7 @@
                 href="tel:+34634594569">
                 <img
                   src="./images/icons/phone.svg"
-                  alt="call"
+                  alt="Camila De Paula: call"
                   class="svg">
               </a>
             </li>
@@ -85,7 +77,7 @@
                 href="sms:+34634594569">
                 <img
                   src="./images/icons/sms.svg"
-                  alt="sms"
+                  alt="Camila De Paula: sms"
                   class="svg">
               </a>
             </li>
@@ -95,7 +87,7 @@
                 href="mailto:camila@anteroz.com">
                 <img
                   src="./images/icons/mail.svg"
-                  alt="mail"
+                  alt="Camila De Paula: mail"
                   class="svg">
               </a>
             </li>
@@ -105,7 +97,7 @@
                 href="./files/CAMILA-DE-PAULA-business-card.vcf.vcf">
                 <img
                   src="./images/icons/download.svg"
-                  alt="download"
+                  alt="Camila De Paula: download"
                   class="svg">
               </a>
             </li>
@@ -119,7 +111,7 @@
                 onclick="openModal('instagram')">
                 <img
                   src="./images/icons/instagram.svg"
-                  alt="instagram"
+                  alt="Camila De Paula: instagram"
                   class="svg">
               </a>
             </li>
@@ -129,7 +121,7 @@
                 onclick="openModal('facebook')">
                 <img
                   src="./images/icons/facebook.svg"
-                  alt="facebook"
+                  alt="Camila De Paula: facebook"
                   class="svg">
               </a>
             </li>
@@ -140,7 +132,7 @@
                 href="https://www.google.com.ua/search?q=Anteroz,+Pje.+Lucero,+1,+28047+Madrid,+%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F&ludocid=12181515388131447326#lrd=0xd4188036bf283e3:0xa90d6fb47f87921e,3">
                 <img
                   src="./images/icons/google-review.svg"
-                  alt="google"
+                  alt="Camila De Paula: google"
                   class="svg">
               </a>
             </li>
@@ -151,7 +143,7 @@
                 href="https://www.youtube.com/watch?v=dVcav3uVNvE">
                 <img
                   src="./images/icons/youtube.svg"
-                  alt="youtube"
+                  alt="Camila De Paula: youtube"
                   class="svg">
               </a>
             </li>
@@ -162,7 +154,7 @@
                 href="https://www.linkedin.com/company/anteroz/">
                 <img
                   src="./images/icons/linkedin.svg"
-                  alt="linkedin"
+                  alt="Camila De Paula: linkedin"
                   class="svg">
               </a>
             </li>
