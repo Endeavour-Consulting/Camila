@@ -1,12 +1,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0">
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta property="og:url" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Camila De Paula: Chief Customer Officer" />
+    <meta property="og:description" content="Chief Customer Officer" />
+    <meta property="og:image" content="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?>images/profile-picture.png" />
+
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400i|Roboto:400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="./css/fonts.css">
@@ -20,6 +23,16 @@
     <title>Camila De Paula</title>
   </head>
   <body>
+
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2&appId=867279866616605&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="wrap" class="main row">
       <div class="col half">
         <div class="profile">
@@ -211,8 +224,22 @@
           <div onclick="closeModal('facebook')" class="close-btn"></div>
         </header>
         <div class="modal__modal-content scrollable">
-          <script  src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="elfsight-app-2757e6fb-98dd-4e4b-a665-16447ad7539e"></div>
+          <div class="fb-page-wrap">
+            <div class="fb-page"
+              data-href="https://www.facebook.com/anterozspirits"
+              data-tabs="timeline"
+              data-small-header="false"
+              data-width="500"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="true">
+              <blockquote
+                cite="https://www.facebook.com/anterozspirits"
+                class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/anterozspirits">Anteroz</a>
+              </blockquote>
+            </div>
+          </div>
         </div>
 
       </div>
